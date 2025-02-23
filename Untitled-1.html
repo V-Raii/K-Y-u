@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="card">
+        <h1>Nhập tên của bạn</h1>
+        <input type="text" id="inputText"> 
+        <button class="openthiep" onclick="transferText()"><i class='bx bx-paper-plane'></i></button>
+    </div>
+
+    <div class="thiep hide">
+        <div class="music-player">
+            <button id="toggleMusic"><i class='bx bx-play'></i></button>
+            <input type="range" id="seekBar" min="0" value="0">
+        </div>
+        <audio id="backgroundMusic" src="nhac.mp3"></audio>
+        
+        <div class="buttons"> 
+            <button id="prev" onclick="moveSlide(-1)"><i class='bx bx-left-arrow-alt'></i></button>
+            <button id="next" onclick="moveSlide(1)"><i class='bx bx-right-arrow-alt' ></i></button>
+        </div>
+
+
+        <div class="slider">
+
+            <div class="list">
+                <div class="item1">
+                    <img src="mu.png" id="mu">
+                    <h1 id="Yearbook">Yearbook</h1>
+                    <h2 id="invitation">invitation</h2>
+                    <h2 id="moi">Trân trọng kính mời:</h2>
+                    <p id="cham"><span id="outputText"></span></p>
+                    <h1 id="lop">A6K61</h1>
+                </div>
+
+                <div class="item2">
+                    <h1 id="thumoi">Thư mời kỷ yếu</h1>
+                    <img src="lịch.png" id="lich">
+                    <img src="vong.png" id="vong">
+                    <h1 id="hai">Vũ Trường Hải</h1>
+                    <h4 id="ngay">9:00 | 02.03.2025</h4>
+                    <div class="map">
+                        <i class='bx bxs-map'></i>
+                        <a href="https://maps.app.goo.gl/KrovuotgYY7BZ7VK8">Trường THPT Mỹ Hào</a>
+                    </div>
+                </div>
+                
+                <div class="item3">
+                    <p id="cap">Hãy cùng nhau tạo nên những bức ảnh đẹp nhất, ghi dấu thanh xuân và những kỷ niệm khó quên! Hãy để những bức ảnh thanh xuân của mình có mặt của <span id="outputText"></span> nhé!</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+<script src="input.js"></script>
+</html>

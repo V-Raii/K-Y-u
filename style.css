@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Lavishly+Yours&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Great+Vibes&family=Lavishly+Yours&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Great+Vibes&family=Lavishly+Yours&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Mea+Culpa&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Great+Vibes&family=Lavishly+Yours&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Mea+Culpa&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&family=Updock&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(45deg, pink, white);
+    overflow: hidden;
+    font-family: 'oswald';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(-45deg, pink, white);
+}
+
+.card h1{
+    text-align: center;
+
+}
+
+.card input{
+    background-color: rgb(98, 98, 249);
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 25px;
+    background: none;
+}
+
+.card button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(89, 157, 235);
+    margin-top: 20px;
+    width: 50px;
+    height: 35px;
+    border-radius: 5px;
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.card button i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    margin: 0;
+    padding: 0;
+}
+.thiep{
+    background-color: bisque;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+.slider{
+    display: flex;
+    background: white;
+    width: 350px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+}
+
+.list{
+    position: absolute;
+    display: flex;
+
+
+}
+
+.buttons{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+}
+
+.buttons button{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons button i{
+    font-size: 30px;
+}
+
+.hide{
+    display: none;
+}
+
+.item1{
+    background: white;
+    background-image: url(bg.png), url(bg2.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#mu{
+    position: absolute;
+    width: 200px;
+    top: -20px;
+    left: -12px;
+    transform: rotate(-30deg);
+}
+
+#Yearbook{
+    position: absolute;
+    font-size: 54px;
+    top: 80px;
+    left: 104px;
+    font-family: LibreBaskerville;
+    font-style: italic;
+}
+
+#invitation{
+    position: absolute;
+    font-size: 30px;
+    top: 129px;
+    left: 112px;
+    font-family: Updock;
+}
+
+#moi{
+    position: absolute;
+    top: 255px;
+    width: 100%;
+    text-align: center;
+}
+
+#cham{
+    position: absolute;
+    font-style: bold;
+    font-size: 50px;
+    top: 328px;
+    font-family: Mea Culpa;
+    width: 100%;
+    text-align: center;
+}
+
+#lop{
+    position: absolute;
+    font-family: Lavishly Yours;
+    top: 176px;
+    left: 20px;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+
+.item2{
+    background: white;
+    background-image: url(bg.png), url(bg2.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#thumoi{
+    position: absolute;
+    font-family: LibreBaskerville;
+    top: 47px;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+#lich{
+    position: absolute;
+    width: 275px;
+    top: 86px;
+    left: 38px;
+}
+
+#vong{
+    position: absolute;
+    width: 25px;
+    top: 271px;
+    left: 65px;
+}
+
+#hai{
+    position: absolute;
+    top: 361px;
+    font-family: Sansita Swashed;
+    width: 100%;
+    text-align: center;
+}
+
+#ngay{
+    position: absolute;
+    top: 401px;
+    width: 100%;
+    text-align: center;
+}
+
+.map{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    top: 418px;
+    font-size: 20px;
+    width: 100%;
+    justify-content: center;
+}
+.map i{
+    color: red;
+    font-size: 30px;
+}
+
+.map a{
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+    justify-content: center;
+}
+
+ .item3{
+    background: white;
+    background-image: url(bg.png), url(bg2.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#cap{
+    position: absolute;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    top: 190px;
+}
+
+#xacnhan{
+    position: absolute;
+    font-size: 15px;
+    top: 260px;
+    left: 116px;
+}
+
+
+.join{
+    position: absolute;
+    top: 300px;
+    display: flex;
+    left: 125px;
+    
+}
+
+#yes{
+    background: rgba(255, 192, 203, 0.405);
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#no{
+    background: rgba(0, 0, 255, 0.405);
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#outputText{
+ text-transform: capitalize;
+}
+
+.music-player {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    justify-content: center;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.music-player button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    align-items: center;
+    padding: 0;
+}
+
+.music-player input {
+    width: 100px;
+}
+
+.list {
+    display: flex;
+    transition: transform 1s ease-in-out;
+    transform-origin: left center;
+}
+
+.list.turning {
+    transform: rotateY(-180deg);
+}
