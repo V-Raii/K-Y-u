@@ -8,6 +8,10 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <audio id="background-music" loop>
+        <source src="nhac.mp3" type="audio/mpeg">
+    </audio>
+    
     <div class="card">
         <h1>Nhập tên của bạn</h1>
         <input type="text" id="inputText"> 
@@ -15,11 +19,6 @@
     </div>
 
     <div class="thiep hide">
-        <div class="music-player">
-            <button id="toggleMusic"><i class='bx bx-play'></i></button>
-            <input type="range" id="seekBar" min="0" value="0">
-        </div>
-        <audio id="backgroundMusic" src="nhac.mp3" autoplay></audio>
         
         <div class="buttons"> 
             <button id="prev" onclick="moveSlide(-1)"><i class='bx bx-left-arrow-alt'></i></button>

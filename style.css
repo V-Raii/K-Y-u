@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Great+Vibes&family=Lavishly+Yours&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Great+Vibes&family=Lavishly+Yours&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Mea+Culpa&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Great+Vibes&family=Lavishly+Yours&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Mea+Culpa&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&family=Updock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Great+Vibes&family=Imperial+Script&family=Lavishly+Yours&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Mea+Culpa&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&family=Updock&display=swap');
 
 *{
     margin: 0;
@@ -192,7 +193,7 @@ body{
 
 #lop{
     position: absolute;
-    font-family: Lavishly Yours;
+    font-family: Imperial Script;
     top: 176px;
     left: 20px;
     font-size: 54px;
@@ -334,41 +335,4 @@ body{
 
 #outputText{
  text-transform: capitalize;
-}
-
-.music-player {
-    position: fixed;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    border-radius: 8px;
-    justify-content: center;
-    bottom: 8px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.music-player button {
-    background: none;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-    align-items: center;
-    padding: 0;
-}
-
-.music-player input {
-    width: 100px;
-}
-
-.list {
-    display: flex;
-    transition: transform 1s ease-in-out;
-    transform-origin: left center;
-}
-
-.list.turning {
-    transform: rotateY(-180deg);
 }

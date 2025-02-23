@@ -49,30 +49,6 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("prev").addEventListener("click", prevSlide);
 });
 
-
-/// Lấy phần tử audio, nút điều khiển và thanh trượt
-const audio = document.getElementById("backgroundMusic");
-const toggleButton = document.getElementById("toggleMusic");
-const seekBar = document.getElementById("seekBar");
-
-// Khi nhấn nút, phát hoặc dừng nhạc
-toggleButton.addEventListener("click", function() {
-    if (audio.paused || audio.ended) {
-        audio.play();
-        toggleButton.innerHTML = "<i class='bx bx-pause'></i>";
-    } else {
-        audio.pause();
-        toggleButton.innerHTML = "<i class='bx bx-play'></i>";
-    }
-});
-
-// Cập nhật thanh trượt khi bài hát phát
-audio.addEventListener("timeupdate", function() {
-    seekBar.max = audio.duration;
-    seekBar.value = audio.currentTime;
-});
-
-// Cho phép người dùng tua bài hát
-seekBar.addEventListener("input", function() {
-    audio.currentTime = seekBar.value;
-});
+    document.addEventListener("click", function() {
+        document.getElementById("background-music").play();
+    }, { once: true }); // Chỉ kích hoạt một lần
