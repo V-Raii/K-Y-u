@@ -300,39 +300,17 @@ body{
     top: 190px;
 }
 
-#xacnhan{
-    position: absolute;
-    font-size: 15px;
-    top: 260px;
-    left: 116px;
-}
-
-
-.join{
-    position: absolute;
-    top: 300px;
-    display: flex;
-    left: 125px;
-    
-}
-
-#yes{
-    background: rgba(255, 192, 203, 0.405);
-    margin: 10px;
-    width: 30px;
-    height: 30px;
-    font-weight: bold;
-    cursor: pointer;
-}
-#no{
-    background: rgba(0, 0, 255, 0.405);
-    margin: 10px;
-    width: 30px;
-    height: 30px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
 #outputText{
  text-transform: capitalize;
 }
+
+.list {
+    display: flex;
+    transition: transform 1s ease-in-out;
+    transform-origin: left center;
+}
+
+.list.turning {
+    transform: rotateY(-180deg);
+}
+
